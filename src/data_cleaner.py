@@ -101,6 +101,6 @@ if __name__ == "__main__":
     sys.path.insert(0, 'src')
     from data_loader import load_data
 
-    df_raw = load_data("data/raw/movies.csv")
+    df_raw = load_data("data/raw/movies2.csv")
     df_clean = clean_data(df_raw)
     save_cleaned(df_clean, "data/cleaned/movies_cleaned.csv")

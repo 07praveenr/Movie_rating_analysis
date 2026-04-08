@@ -43,4 +43,4 @@ def load_data(filepath: str) -> pd.DataFrame:
 
 # --- Run this file directly to test ---
 if __name__ == "__main__":
-    df = load_data("data/raw/movies.csv")
+    df = load_data("data/raw/movies2.csv")
