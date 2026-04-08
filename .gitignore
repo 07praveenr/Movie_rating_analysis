@@ -1,2 +1,5 @@
 data/
-*.csv
+data/raw/
+data/*.csv
+!data/cleaned/
+!data/cleaned/movies_features.csv
